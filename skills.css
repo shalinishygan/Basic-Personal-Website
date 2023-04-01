@@ -1,0 +1,45 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(background.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: top;
+    color: white;
+    font-size: 25px;
+   }
+
+h1{
+    color: #FFBF9B;
+}
+
+dt{
+    color: #FEFF86;
+}
+
+li{
+    color: #F5EBEB;
+}
+
+
+.flex-container {
+display: flex;
+}
+
+.flex-child1 {
+    flex: 1;
+    padding-left: 150px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}  
+.flex-child2 {
+    flex: 1;
+    padding-left: 150px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }  
+
+/* .flex-child:first-child {
+margin-right: 20px;
+} */

@@ -1,0 +1,56 @@
+body {
+	background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(background.jpg) ;
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	background-position: top;
+	text-align: center;
+	color: #FFFBF5;
+	font-family: Georgia, serif; 
+}
+
+h1 {
+	font-size: 100px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h3{
+	font-size: 25px;
+	color: #F3DEBA;
+}
+
+a{
+	font-size: 30px;
+	color: #609966;
+}
+a:hover{
+	color: #159895;
+}
+
+
+.container-fluid {
+	height: 200px;
+	width: 100%;
+	
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.fa {
+	color: #FFEAEA;
+	margin: 10px 5px;
+	font-size: 3em !important;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
